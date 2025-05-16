@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('/assets/fonts/gotham-bold-webfont.woff2') format('woff2'),
+        url('/assets/fonts/gotham-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('/assets/fonts/gotham-bolditalic-webfont.woff2') format('woff2'),
+      url('/assets/fonts/gotham-bolditalic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('/assets/fonts/gotham-light-webfont.woff2') format('woff2'),
+        url('/assets/fonts/gotham-light-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('/assets/fonts/gotham-lightitalic-webfont.woff2') format('woff2'),
+        url('/assets/fonts/gotham-lightitalic-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Gotham', 'Proxima Nova', 'Helvetica', 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  width: 100vw;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px 50px 0px;
+}
+nav img {
+  width: auto;
+}
+nav img#flag-wordmark {
+  height: 190px;
+  margin-right: 30px;
+}
+nav img#flag-logo {
+  height: 240px;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  nav img {
+    height: 150px;
+  }
+}
