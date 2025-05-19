@@ -35,6 +35,43 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+h2 {
+  font-weight: lighter;
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+ul {
+  list-style: disc;
+  margin-bottom: 20px;
+}
+ul li {
+  font-size: 17px;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+ul li:last-child {
+  margin-bottom: 0px;
+}
+
+hr {
+  border: 2px solid #F37121;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
 nav {
   width: 100vw;
@@ -55,13 +92,57 @@ nav img#flag-wordmark {
 nav img#flag-logo {
   height: 240px;
 }
+nav img#flag-banner {
+  height: 240px;
+}
 
 main {
-  width: 100vw;
+  width: 60vw;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+}
+div#well {
+  background-color: #cfcfcf;
+  border-radius: 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+div#list {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+div.entry {
+  width: 100%;
+  max-width: 500px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #F37121;
+  border: 3px solid #F37121;
+  margin-bottom: 40px;
+  transition: 0.3s;
+}
+div.entry a {
+  font-size: 24px;
+  color: white;
+}
+div.entry:hover {
+  background-color: #f1a371;
+  border-radius: 20px;
+}
+img#discord-icn {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 800px) {
