@@ -15,14 +15,17 @@
         <li>And share knowledge
       </ul>
       
-      <hr />
-
-      <div id="list">
+      <div class="list" id="list-abovefold">
         <a href="https://forms.gle/JMxNJpo3hgEccBZZ7" title="Interest form on Google Forms" class="entry-wrap">
           <div class="entry">
             Fill out the interest form
           </div>
         </a>
+      </div>
+
+      <hr />
+
+      <div class="list">
         <a href="/proposal.php" title="Club proposal page" class="entry-wrap">
           <div class="entry">
             Club proposal

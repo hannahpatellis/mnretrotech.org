@@ -124,7 +124,7 @@
 
       <hr />
 
-      <div id="list">
+      <div class="list">
         <a href="https://forms.gle/JMxNJpo3hgEccBZZ7" title="Interest form on Google Forms" class="entry-wrap">
           <div class="entry">
             Fill out the interest form

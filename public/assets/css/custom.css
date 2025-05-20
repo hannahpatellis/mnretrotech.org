@@ -127,12 +127,15 @@ div#well {
   padding: 20px 20px 20px 20px;
 }
 
-div#list {
+div.list {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+div#list-abovefold {
+  margin-top: 40px;
 }
 a.entry-wrap {
   width: 100%;
@@ -147,12 +150,15 @@ a.entry-wrap {
   border: 3px solid #F37121;
   margin-bottom: 40px;
   transition: 0.3s;
-    font-size: 24px;
+  font-size: 24px;
   color: white;
 }
 a.entry-wrap:hover {
   background-color: #f1a371;
   border-radius: 20px;
+}
+div#list-abovefold a.entry-wrap {
+  margin-bottom: 0px;
 }
 img#discord-icn {
   height: 20px;
