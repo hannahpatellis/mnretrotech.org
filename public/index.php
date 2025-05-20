@@ -1,4 +1,4 @@
-<?php $title=""; require_once("partials/header.php"); ?>
+<?php $title=""; $index=true; require_once("partials/header.php"); ?>
 
     <nav>
       <img id="flag-wordmark" src="/assets/svg/wordmark.svg" alt="Minnesota Retro Technology Club" />

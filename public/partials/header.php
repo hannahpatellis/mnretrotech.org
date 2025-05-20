@@ -7,4 +7,4 @@
     <link href="/assets/css/reset.css" rel="stylesheet">
     <link href="/assets/css/custom.css" rel="stylesheet">
   </head>
-  <body>
+  <body <?php if(isset($index) && $index) {print("id='index'");} ?>>

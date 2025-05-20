@@ -35,6 +35,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+body#index {
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+}
 h1 {
   font-weight: bold;
   font-size: 24px;
