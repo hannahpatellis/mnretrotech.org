@@ -38,12 +38,14 @@ body {
 h1 {
   font-weight: bold;
   font-size: 24px;
+  line-height: 35px;
   margin-bottom: 25px;
   margin-top: 25px;
 }
 h2 {
   font-weight: lighter;
   font-size: 22px;
+  line-height: 32px;
   margin-bottom: 20px;
   text-decoration: underline;
 }
@@ -73,6 +75,19 @@ hr {
   margin-bottom: 40px;
 }
 
+div#copyright {
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div#copyright img {
+  margin-top: 20px;
+}
+
 nav {
   width: 100vw;
   height: 250px;
@@ -93,7 +108,8 @@ nav img#flag-logo {
   height: 240px;
 }
 nav img#flag-banner {
-  height: 240px;
+  max-width: 80vw;
+  height: auto;
 }
 
 main {
@@ -106,6 +122,7 @@ main {
 }
 div#well {
   background-color: #cfcfcf;
+  line-height: 27px;
   border-radius: 10px;
   padding: 20px 20px 20px 20px;
 }
@@ -117,7 +134,7 @@ div#list {
   align-items: center;
   justify-content: center;
 }
-div.entry {
+a.entry-wrap {
   width: 100%;
   max-width: 500px;
   height: 60px;
@@ -130,12 +147,10 @@ div.entry {
   border: 3px solid #F37121;
   margin-bottom: 40px;
   transition: 0.3s;
-}
-div.entry a {
-  font-size: 24px;
+    font-size: 24px;
   color: white;
 }
-div.entry:hover {
+a.entry-wrap:hover {
   background-color: #f1a371;
   border-radius: 20px;
 }
@@ -146,7 +161,18 @@ img#discord-icn {
 }
 
 @media only screen and (max-width: 800px) {
+  nav {
+    height: auto;
+    flex-direction: column;
+  }
   nav img {
     height: 150px;
   }
+  nav img#flag-banner {
+    max-width: 95vw;
+    height: auto;
+  }
+  main {
+  width: 90vw;
+}
 }

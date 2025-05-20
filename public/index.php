@@ -1,13 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Minnesota Retro Technology Club</title>
-    <link href="/assets/css/reset.css" rel="stylesheet">
-    <link href="/assets/css/custom.css" rel="stylesheet">
-  </head>
-  <body>
+<?php $title=""; require_once("partials/header.php"); ?>
+
     <nav>
       <img id="flag-wordmark" src="/assets/svg/wordmark.svg" alt="Minnesota Retro Technology Club" />
       <img id="flag-logo" src="/assets/img/mnrtc.png" alt="Minnesota Retro Technology Club logo" />
@@ -26,19 +18,27 @@
       <hr />
 
       <div id="list">
-        <div class="entry">
-          <a href="https://forms.gle/JMxNJpo3hgEccBZZ7">Fill out the interest form</a>
-        </div>
-        <div class="entry">
-          <a href="/proposal.php">What's the idea?</a>
-        </div>
-        <div class="entry">
-          <a href="/about.php">Who's behind this club?</a>
-        </div>
-        <div class="entry">
-          <img id="discord-icn" src="/assets/svg/discord.svg" /><a href="https://discord.gg/hF9wh6gPcP">Join the Discord</a>
-        </div>
+        <a href="https://forms.gle/JMxNJpo3hgEccBZZ7" title="Interest form on Google Forms" class="entry-wrap">
+          <div class="entry">
+            Fill out the interest form
+          </div>
+        </a>
+        <a href="/proposal.php" title="Club proposal page" class="entry-wrap">
+          <div class="entry">
+            Club proposal
+          </div>
+        </a>
+        <a href="/about.php" title="Who's behind this club page" class="entry-wrap">
+          <div class="entry">
+            Who's behind this club?
+          </div>
+        </a>
+        <a href="https://discord.gg/hF9wh6gPcP" title="Discord invitation link" class="entry-wrap">
+          <div class="entry">
+            <img id="discord-icn" src="/assets/svg/discord.svg" />Join the Discord
+          </div>
+        </a>
       </div>
     </main>
-  </body>
-</html>
+
+<?php require_once("partials/footer.php"); ?>

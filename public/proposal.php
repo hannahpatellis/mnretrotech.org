@@ -1,13 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Proposal | Minnesota Retro Technology Club</title>
-    <link href="/assets/css/reset.css" rel="stylesheet">
-    <link href="/assets/css/custom.css" rel="stylesheet">
-  </head>
-  <body>
+<?php $title="Proposal | "; require_once("partials/header.php"); ?>
+
     <nav>
       <a href="/">
         <img id="flag-banner" src="/assets/img/banner.png" alt="Minnesota Retro Technology Club" />
@@ -15,7 +7,7 @@
     </nav>
     <main>
 
-      <div id="well">This proposal is subject to change and adjustment: This is just the initial draft of an idea.</div>
+      <div id="well">This proposal is subject to change and adjustment: This is just the initial draft!</div>
 
       <h1>Mission</h1>
       <p>This club will exist as a user’s group for retro/vintage computer/technology enthusiasts. Our goal is to…</p>
@@ -115,31 +107,40 @@
       <h1>Inspiration</h1>
       <h2>Organizations</h2>
       <ul>
-        <li><a href="https://vcfed.org">Vintage Computing Federation</a></li>
-        <li><a href="https://www.atlhcs.org">Atlanta Historical Computing Society</a></li>
-        <li><a href="https://www.freegeektwincities.org/">Free Geek Twin Cities</a></li>
-        <li><a href="https://miniapples.org">Mini’app’les</a></li>
-        <li><a href="https://sea-rcs.org">Seattle Retro Computing Society</a></li>
-        <li><a href="https://chiclassiccomp.org">Chicago Classic Computing</a></li>
-        <li><a href="https://www.rcsri.org">The Retro-Computing Society of Rhode Island, Inc.</a></li>
+        <li><a href="https://vcfed.org" title="Vintage Computing Federation homepage">Vintage Computing Federation</a></li>
+        <li><a href="https://www.atlhcs.org" title="Atlanta Historical Computing Society homepage">Atlanta Historical Computing Society</a></li>
+        <li><a href="https://www.freegeektwincities.org/" title="Free Geek Twin Cities homepage">Free Geek Twin Cities</a></li>
+        <li><a href="https://miniapples.org" title="Mini'app'les user group homepage">Mini’app’les</a></li>
+        <li><a href="https://sea-rcs.org" title="Seattle Retro Computing Society homepage">Seattle Retro Computing Society</a></li>
+        <li><a href="https://chiclassiccomp.org" title="Chicago Classic Computing homepage">Chicago Classic Computing</a></li>
+        <li><a href="https://www.rcsri.org" title="Retro-Computing Society of Rhode Island homepage">The Retro-Computing Society of Rhode Island, Inc.</a></li>
       </ul>
       <h2>Miscellaneous</h2>
       <ul>
-        <li><a href="http://ACRPC.net">ACRPC.net</a></li>
-        <li><a href="https://www.facebook.com/groups/1006333239526745/">Minnesota Vintage Computer User Group & Marketplace</a></li>
-        <li><a href="http://BitHistory.org">BitHistory.org</a></li>
+        <li><a href="http://ACRPC.net" title="ACRPC.net homepage">ACRPC.net</a></li>
+        <li><a href="https://www.facebook.com/groups/1006333239526745/" title="MN Vintage Computer User Group & Marketplace on Facebook Groups">Minnesota Vintage Computer User Group & Marketplace</a></li>
+        <li><a href="http://BitHistory.org" title="BitHistory.org homepage">BitHistory.org</a></li>
       </ul>
 
       <hr />
 
       <div id="list">
-        <div class="entry">
-          <a href="https://forms.gle/JMxNJpo3hgEccBZZ7">Fill out the interest form</a>
-        </div>
-        <div class="entry">
-          <a href="/about.php">Who's behind this club?</a>
-        </div>
+        <a href="https://forms.gle/JMxNJpo3hgEccBZZ7" title="Interest form on Google Forms" class="entry-wrap">
+          <div class="entry">
+            Fill out the interest form
+          </div>
+        </a>
+        <a href="/about.php" title="Who's behind this club page" class="entry-wrap">
+          <div class="entry">
+            Who's behind this club?
+          </div>
+        </a>
+        <a href="https://discord.gg/hF9wh6gPcP" title="Discord invitation link" class="entry-wrap">
+          <div class="entry">
+            <img id="discord-icn" src="/assets/svg/discord.svg" />Join the Discord
+          </div>
+        </a>
       </div>
     </main>
-  </body>
-</html>
+
+<?php require_once("partials/footer.php"); ?>
