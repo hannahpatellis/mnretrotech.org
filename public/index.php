@@ -42,6 +42,11 @@
             <img id="discord-icn" src="/assets/svg/discord.svg" />Join the Discord
           </div>
         </a>
+        <a href="/assets/pdf/MNRTC_Flyer.pdf" title="PDF of the MN Retro Tech Club flyer" class="entry-wrap">
+          <div class="entry">
+            Print the flyer
+          </div>
+        </a>
       </div>
     </main>
 
