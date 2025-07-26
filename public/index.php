@@ -9,9 +9,9 @@
       <p>Minnesota Retro Technology Club is a new organization based in the Twin Cities. We're still figuring things out, but please fill out the interest form below!</p>
       
       <div class="list" id="list-abovefold">
-        <a href="https://forms.gle/JMxNJpo3hgEccBZZ7" title="Interest form on Google Forms" class="entry-wrap">
+        <a href="https://groups.io/g/mnretrotech" title="Mailing list on Groups.io" class="entry-wrap">
           <div class="entry">
-            Fill out the interest form
+            Join the mailing list on Groups.io
           </div>
         </a>
       </div>
@@ -44,7 +44,7 @@
         </a>
         <a href="/assets/pdf/MNRTC_Flyer.pdf" title="PDF of the MN Retro Tech Club flyer" class="entry-wrap">
           <div class="entry">
-            Print the flyer
+            Interest form results
           </div>
         </a>
       </div>

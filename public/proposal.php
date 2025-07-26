@@ -51,6 +51,7 @@
         <li>Posters</li>
         <li>Hand-outs at VCF events</li>
         <li>Discord</li>
+        <li>Groups.io email mailing list</li>
         <li>Facebook Page (not a Group)</li>
         <li>Meetup.com</li>
         <li>Mastodon</li>
@@ -58,11 +59,12 @@
       <h2>Club communication stack</h2>
       <ul>
         <li>Discord: In-club communication and sharing of information</li>
+        <li>Groups.io: Group email mailing list</li>
         <li>Google Calendar: Central source of truth for events</li>
         <li>Meetup.com: Source of truth for events and way to find new members</li>
         <li>Website: Blog with updates, source of truth for links, and resources</li>
         <li>Mastodon and Facebook: Social connection to reach out to those both inside and outside the group</li>
-        <li>Gmail: Primary email</li>
+        <li>iCloud: Primary email (Upgrade to Google Workspace in the future)</li>
       </ul>
 
       <hr />
@@ -125,9 +127,9 @@
       <hr />
 
       <div class="list">
-        <a href="https://forms.gle/JMxNJpo3hgEccBZZ7" title="Interest form on Google Forms" class="entry-wrap">
+        <a href="https://groups.io/g/mnretrotech" title="Mailing list on Groups.io" class="entry-wrap">
           <div class="entry">
-            Fill out the interest form
+            Join the mailing list on Groups.io
           </div>
         </a>
         <a href="/about.php" title="Who's behind this club page" class="entry-wrap">
